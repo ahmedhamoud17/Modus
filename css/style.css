@@ -1,0 +1,45 @@
+.ahmed:hover{
+    color: #00c7fc;
+    transition: 0.5s;
+}
+
+.hoda{
+    color: #00c7fc;
+}
+
+#landing{
+    background-image: url('../images/header.jpg');
+    background-size: 100%;
+}
+
+.hamoud{
+    font-size: 65px;
+    font-weight: 300;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.social-icons {
+    font-size: 24px;
+}
+
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+@media(min-width : 0px) and (max-width:768px){
+    .items{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .items .item{
+        padding-bottom: 35px;
+    }
+}
